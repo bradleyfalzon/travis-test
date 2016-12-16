@@ -2,3 +2,4 @@ language: go
 before_install:
 - openssl aes-256-cbc -K $encrypted_097d25d2a22b_key -iv $encrypted_097d25d2a22b_iv
   -in top-secret-file.txt.enc -out top-secret-file.txt -d
+- export
